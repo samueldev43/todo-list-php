@@ -1,7 +1,7 @@
 <?php
 
-$db_name = 'dbteknisa';
-$db_host = 'localhost:3306';
+$db_name = '';
+$db_host = '';
 $db_user = 'root';
 $db_password = '';
 
