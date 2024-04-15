@@ -8,6 +8,8 @@ if($sql->rowCount() > 0) {
     $lista = $sql->fetchAll(PDO::FETCH_ASSOC);
 }
 
+<!-- MYSQL operation -->
+
 if(isset($_POST['text'])) {
     $text = filter_input(INPUT_POST, 'text');
     $query = "INSERT INTO tasks (task) VALUES (:task)";
